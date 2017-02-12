@@ -1,0 +1,10 @@
+$(function(){
+  $(document).ready(function () {
+    $('#one').fadeIn(2000).removeClass('hidden');
+});
+  $('#one').on('mouseenter',function(){
+    $('#two').show();
+  });
+  $('#one').on('mouseleave',function(){
+    $('#two').hide();
+  });

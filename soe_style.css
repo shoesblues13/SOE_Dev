@@ -3,7 +3,12 @@
     color: whitesmoke;
     padding: 100px 25px;
 }
-
+#three {
+  text-transform:uppercase;
+}
+.hidden {
+  display:none;
+}
 .jumbotron h1 {
     font-size: 1000%;
 }

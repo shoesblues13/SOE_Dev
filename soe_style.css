@@ -44,3 +44,60 @@ a, a:hover {
     color:black;
     
 }
+.navbar-text > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.grid-item-size2 {
+     width: 200px;
+  height: 275px;
+  background: #D26;
+    padding: 5px;
+}
+.jumbotron {
+    padding: 0.5em 0.6em;
+    h1 {
+        font-size: 2em;
+    }
+    p {
+        font-size: 1.2em;
+        .btn {
+            padding: 0.5em;
+        }
+    }
+}
+.background-color {
+    background-color: powderblue;
+}
+#textsize1 {
+    font-size: 60px;
+}
+.main-event-size {
+    height: 500px;
+}
+/*The following css makes the full description of the events visible only after you hvae hovered over the main div with the following class of main-event-size for the main event and subEvents class for the remaining events*/
+.main-event-size p {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    opacity: 0;
+}
+.main-event-size p:hover{
+    opacity: 1;
+}
+.subEvents {
+    height:250px;
+}
+.subEvents p {
+    opacity: 0;
+}
+.subEvents p:hover {
+    opacity: 1;
+}
+/*This will be the font for the SOE title page and whenever SOE appears on the webpages*/
+@font-face {
+  font-family: "Kimberley";
+  src: url(http://www.princexml.com/fonts/larabie/ »
+  kimberle.ttf) format("truetype");
+}
